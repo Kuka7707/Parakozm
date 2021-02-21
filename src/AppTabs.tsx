@@ -4,6 +4,7 @@ import { AppParamList } from './AppParamList'
 import { MaterialIcons, MaterialCommunityIcons } from '@expo/vector-icons'
 import { HomeStack } from './HomeStack'
 import { HindiStack } from './HindiStack'
+import { VideoStack } from './VideoStack'
 
 
 interface AppTabsProps{
@@ -39,7 +40,7 @@ export const AppTabs: React.FC<AppTabsProps> = ({}) => {
          }}>
          <Tabs.Screen name='Urdu' component={HomeStack}/>
          <Tabs.Screen name='Hindi' component={HindiStack}/>
-         <Tabs.Screen name='Video' component={HomeStack}/>
+         <Tabs.Screen name='Video' component={VideoStack}/>
       </Tabs.Navigator>
    )
 }

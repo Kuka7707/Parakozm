@@ -20,8 +20,3 @@ export const HindiStack: React.FC<HindiStackProps> = ()=>{
       </Stack.Navigator>
    )
 }
-
-
-
-
-            
